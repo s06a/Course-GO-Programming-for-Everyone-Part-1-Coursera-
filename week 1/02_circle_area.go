@@ -1,5 +1,6 @@
 /* a code to calculate area of a circle
-   using the radius read from user input */
+   using the radius read from user input
+*/
 
 package main
 
