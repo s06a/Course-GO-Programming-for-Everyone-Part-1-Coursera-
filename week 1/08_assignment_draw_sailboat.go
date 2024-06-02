@@ -1,3 +1,16 @@
+/* the output:
+
+        ~~~
+     |\
+~~  /| \
+   / |  \
+  /  |   \
+  \  |   /
+ ~ ------ ~
+~~~     ~~
+
+*/
+
 package main
 
 import "fmt"
