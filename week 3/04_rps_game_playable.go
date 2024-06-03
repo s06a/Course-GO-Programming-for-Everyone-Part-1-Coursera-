@@ -1,5 +1,6 @@
-/* rock paper scissors code to just read
-   user's move
+/* rock paper scissors code to read user's move
+   then check it with machine's move to decide
+   who wins the game.
 */
 
 package main
@@ -11,7 +12,6 @@ import (
 )
 
 func main() {
-
 	var move rune // rune stores one character
 
 	fmt.Println("Wellcome to Rock Paper Scissors game!")
