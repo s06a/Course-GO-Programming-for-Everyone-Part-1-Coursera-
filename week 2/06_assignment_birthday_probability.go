@@ -7,9 +7,9 @@
    get a reasonable sample.  Also do this for 10, 20, 30 ,.. 100 people
    in the room and print this as a table.
 
-	 limitations: cause arrays and functions are not taught till this
-	 assignment, I assume that we have to use basic tools such as loops,
-	 variables, and if condition!
+   limitations: cause arrays and functions are not taught till this
+   assignment, I assume that we have to use basic tools such as loops,
+   variables, and if condition!
 */
 
 package main
