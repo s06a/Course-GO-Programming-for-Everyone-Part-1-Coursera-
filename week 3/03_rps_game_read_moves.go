@@ -1,3 +1,7 @@
+/* rock paper scissors code to just read
+   user's move
+*/
+
 package main
 
 import "fmt"
