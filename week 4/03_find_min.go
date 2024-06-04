@@ -21,14 +21,19 @@ func minSlice(slice []float64) float64 {
 }
 
 func main() {
-	mySlice := make([]float64, 10)
+	size := 0
+	fmt.Println("input a large number as size of slice")
+	fmt.Scanf("%d", &size)
+	mySlice := make([]float64, size)
 	randNum := 0.0
 	rand.Seed(time.Now().UnixNano())
-	for i := 0; i < 10; i++ {
-		randNum = rand.Float64() * 100               // rand num between 0-100
-		mySlice[i] = float64(int(randNum*100)) / 100 // to round the number
+	for i := 0; i < size; i++ {
+		randNum = rand.Float64() * 100                  // rand num between 0-100
+		mySlice[i] = float64(int(randNum*100000)) / 100 // to round the number
 	}
 	// find min
-	fmt.Println("slice is", mySlice)
+	startTime := time.Now()
 	fmt.Println("min of the slice is", minSlice(mySlice))
+	duration := time.Since(startTime)
+	fmt.Println("running time is:", duration)
 }
