@@ -1,5 +1,5 @@
 /* a fully playable rock paper scissors game
-using switch case instead of if conditions
+   using switch case instead of if conditions
 */
 
 package main
