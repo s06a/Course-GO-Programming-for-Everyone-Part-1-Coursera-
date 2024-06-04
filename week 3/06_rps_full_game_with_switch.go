@@ -1,7 +1,5 @@
-/* a fully playable rock paper scissors game,
-   which uses almost any topic we have learned
-   till now such as loops, conditions, different
-   variables and ...
+/* a fully playable rock paper scissors game
+using switch case instead of if conditions
 */
 
 package main
